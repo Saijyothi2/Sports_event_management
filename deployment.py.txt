@@ -1,0 +1,5 @@
+def deploy_system():
+    print("Deploying Sports Event Management System...")
+    return "Deployment Successful"
+
+print(deploy_system())

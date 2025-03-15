@@ -1,0 +1,9 @@
+def gather_requirements():
+    requirements = {
+        "Stakeholders": ["Organizers", "Players", "Audience"],
+        "Functional": ["Event registration", "Match scheduling", "Score tracking"],
+        "Non-Functional": ["Performance", "Security"]
+    }
+    return requirements
+
+print(gather_requirements())
