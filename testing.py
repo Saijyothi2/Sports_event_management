@@ -1,4 +1,5 @@
 import datetime
+from implementation import Event  # Import the Event class
 
 def test_event():
     event = Event("Basketball League", "2025-06-15")
